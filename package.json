@@ -1,0 +1,21 @@
+{
+  "name": "users_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sql": "node ./SQL_DB/index.js",
+    "mongo": "node ./Mongo_DB/index.js"
+  },
+  "keywords": [],
+  "author": "Yudytskyi Andrii",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "pg": "^8.5.1",
+    "yup": "^0.32.9"
+  }
+}
